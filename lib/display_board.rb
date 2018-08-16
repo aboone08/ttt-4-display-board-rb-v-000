@@ -2,5 +2,5 @@
 # out the current state.
 board = ["X", "O", "O", "O", "O", "X", "O", "O", "X"]
 def display_board(board)
-  puts "#{board}"
+  puts " #{board[2]} | #{board[4]} | #{board[6]} "
 end
